@@ -47,4 +47,8 @@ public class Producto {
         proveedor.getProductos().add(this);
     }
 
+    @Override
+    public String toString() {
+        return this.nombre + " Precio: $" + this.precioUnitario;
+    }
 }
